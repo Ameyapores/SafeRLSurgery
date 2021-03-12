@@ -1,4 +1,4 @@
-Safe RL for surgery
+# Safe RL for surgery
  
 Folders:
     - Unity: contains the Unity project, which has been modified to slightly adjust the observation space, the reward function and other minor details (e.g., the delta movement)
