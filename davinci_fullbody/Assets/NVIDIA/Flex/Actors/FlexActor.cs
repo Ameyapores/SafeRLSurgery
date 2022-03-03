@@ -380,8 +380,8 @@ namespace NVIDIA.Flex
                     resFatPos = false;
                 }
                 
-                Debug.Log("GraspFat active(double click here for see flag definition): " + activeGrab);
-                Debug.Log("relgrasp (double click here for see flag definition): " + relGrasp);
+                // Debug.Log("GraspFat active(double click here for see flag definition): " + activeGrab);
+                // Debug.Log("relgrasp (double click here for see flag definition): " + relGrasp);
 
                 //pick all particles
                 _particleData.GetParticles(0, 10000, allParticles);
