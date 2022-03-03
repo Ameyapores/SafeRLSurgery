@@ -1,0 +1,38 @@
+tag: 'PPO_MC_discrete'
+
+setup:
+  seed: 2020
+  use_gpu: True
+
+train:
+  name: 'built_scene/dvrk-xr'
+  n_episodes: 50001
+  verbose: 50
+  worker_id: 5
+
+agent:
+  update_freq: 5
+  n_epochs: 10
+  eps_clip: 0.2
+  gamma: 0.99
+
+  std: 1
+  std_scale: True
+  std_decay: 0.99
+  std_min: 0.1
+  
+  buffer:
+    batch: 1000
+
+  actor:
+    h_layers: 2
+    h_size: 128
+    print_model: False
+
+  critic:
+    h_layers: 2
+    h_size: 128
+    print_model: False
+  
+      
+
