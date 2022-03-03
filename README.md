@@ -24,7 +24,7 @@
  
 # References
  https://ieeexplore.ieee.org/document/9636175
- '''
+ ```
  @inproceedings{pore2021safe,
   title={Safe Reinforcement Learning using Formal Verification for Tissue Retraction in Autonomous Robotic-Assisted Surgery},
   author={Pore, Ameya and Corsi, Davide and Marchesini, Enrico and Dall’Alba, Diego and Casals, Alicia and Farinelli, Alessandro and Fiorini, Paolo},
@@ -33,4 +33,5 @@
   year={2021},
   organization={IEEE}
 }
-'''
+```
+
