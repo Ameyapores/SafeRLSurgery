@@ -8,7 +8,7 @@
 - Unity: contains the Unity project, which has been modified to slightly adjust the observation space, the reward function and other minor details (e.g., the delta movement)
 - Testing: contains the files to test the trained model in a built environment (env_fullbody) or in the editor. To test the model in the builded env just run "main.py", for the editor option, see line 64 of the main file.
  
-## Pre-requisite (Tested on the folowing versions):
+## Pre-requisite (Tested on the following versions):
  - Mlagents: 0.16.1 
  - mlagents-envs: 0.26.0
  - gym_unity: 0.26.0
