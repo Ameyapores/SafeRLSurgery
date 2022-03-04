@@ -5,7 +5,7 @@ setup:
   use_gpu: True
 
 train:
-  name: 'built_scene/dvrk-xr'
+  name: 'env_fullbody/dvrk-xr'
   n_episodes: 50001
   verbose: 50
   worker_id: 5

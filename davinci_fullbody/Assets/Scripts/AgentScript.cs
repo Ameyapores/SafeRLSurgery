@@ -88,7 +88,7 @@ public class AgentScript : Agent
     
     public override void OnActionReceived(float[] action)
     {
-        Debug.Log("action"+ action[0]);
+        // Debug.Log("action"+ action[0]);
         step++;
         int Pos_y = Mathf.FloorToInt(action[0]);
         int Pos_z = Mathf.FloorToInt(action[1]);

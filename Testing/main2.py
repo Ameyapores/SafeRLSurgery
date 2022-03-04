@@ -58,7 +58,8 @@ def get_action(model, state, std=0.0):
 def main(cfg):
     # env = UnityToGymWrapper(unity_env=cfg['train']['name'])
     # env = UnityToGymWrapper(unity_env=cfg['train']['name'])
-    unity_env = UnityEnvironment(cfg['train']['name'])
+    unity_env = UnityEnvironment(None)
+    # unity_env = UnityEnvironment(cfg['train']['name'])
     env = UnityToGymWrapper(unity_env)
     # env = UnityToGymWrapper(unity_env=None)
     '''
