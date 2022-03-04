@@ -9,10 +9,14 @@
 - Testing: contains the files to test the trained model in a built environment (env_fullbody) or in the editor. To test the model in the builded env just run "main.py", for the editor option, see line 64 of the main file.
  
 ## Pre-requisite (Tested on the following versions):
- - Mlagents: 0.16.1 
- - mlagents-envs: 0.26.0
- - gym_unity: 0.26.0
-    
+ ```
+ mlagents: 0.20.0
+mlagents-envs: 0.20.0
+gym-unity: 0.20.0
+gym: 0.20.0
+tensorflow: 2.3.0
+tensorboard: 2.7.0
+```
 <figure>
  <img src="images/workspace2_updated3.png" width="600""> 
 <figure>
